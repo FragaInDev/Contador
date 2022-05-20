@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+p {
+  color: white;
+  margin-bottom: 64px;
+}
+
+button {
+  height: 64px;
+  width: 64px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8257e5;
+  color: white;
+  font-size: 16pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+button:hover {
+  height: 64px;
+  width: 64px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: #996dff;
+  color: white;
+  box-shadow: 0px 4px 25px -10px rgba(153, 109, 255, 0.5);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+
+  font-size: 16pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+#counter {
+  display: flex;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+  color: white;
+}
